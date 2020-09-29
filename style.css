@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary{
+    background-color: white;
+    border-color: #006aff;
+    color: #006aff;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #006aff;
+    border-color: #006aff;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-secondary{
+    background-color: #006aff;
+    border-color: #006aff;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #006aff;
+    border-color: #006aff;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hamburger-menu */
+
+.navbar-default .navbar-toggle{
+    background: none;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #5b6987;
+}
+
+
+
+/* Header Navbar */
+
+.navbar-default.navbar.navbar-fixed-top {
+    border: 0;
+    background-color: white;
+    border-radius: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand{
+    padding: 10px 15px;
+}
+
+.navbar-brand img{
+    max-width: 172px;
+    max-height: 28px;
+}
+
+.navbar-brand a{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a{
+    font-size: 15px;
+    color: #5b6886;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+    color: #006aff;
+    background: none;
+}
+
+.navbar-right{
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+
+@media (min-width: 768px) {
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important; /* per sovrascrivere l'important di bootstrap */
+    }
+
+    .navbar-brand a{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+
+    .navbar-header {
+        float: left;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-collapse.collapse {
+        display: block !important; /* per sovrascrivere l'important di bootstrap */
+    }
+
+}
