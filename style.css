@@ -460,6 +460,106 @@ h2{
     color: #1633ff;
 }
 
+/* <!-- Sezione Team --> */
+
+.team{
+    background-color: #f3f5f9;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.team p{
+    color: #031b4e;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.team a{
+    color: #0069ff;
+}
+
+.team a:hover{
+    color: #1633ff;
+    text-decoration: none;
+}
+
+
+.team .box-text-team{
+    background-color: white;
+    max-width: 900px;
+    max-height: 580px;
+    padding: 50px 40px;
+    display: inline-block;
+}
+
+.team .team-img{
+    margin: 0;
+    max-width: 200px;
+    width: 300px;
+}
+
+.team .box-text-team p{
+    color: rgb(91, 105, 135);
+    font-size: 24px;
+}
+
+.team .box-text-team a{
+    color: #0069ff;
+    font-size: 18px;
+}
+
+.team .box-text-team a:hover{
+    color: #1633ff;
+    text-decoration: none;
+}
+
+.team .box-text-team span{
+    display: block;
+}
+
+.team .box-text-team .span-top{
+    font-size: 16px;
+    color: rgb(91, 105, 135);
+    margin-bottom: 4px;
+}
+
+.team .box-text-team .span-bottom{
+    font-size: 14px;
+    color: rgb(91, 105, 135);
+}
+
+.carosel-margin{
+    margin-top: 80px;
+}
+
+/* <!-- Get start --> */
+
+.start{
+    background-image: url('https://prismic-io.s3.amazonaws.com/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg');
+    height: 188px;
+}
+
+.start-title h1{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 40px;
+    line-height: 120%;
+}
+
+.start-bottom .start-btn{
+    padding: 16px 14px;
+}
+
+.start-bottom .start-btn:hover{
+    background: rgba(225,225,225,0.9) !important;
+    color: #006aff;
+}
+
 
 @media (min-width: 375px) {
 
@@ -760,5 +860,14 @@ h2{
 
     .panel>.table.tabella-bottom>tbody:first-child>tr:first-child td{
         border-top:0;
+    }
+
+    .start-title h1{
+        padding-top: 80px;
+        text-align: left !important;
+    }
+
+    .start-bottom .start-btn{
+        margin-top: 90px;
     }
 }
