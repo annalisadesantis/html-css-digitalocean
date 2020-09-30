@@ -241,13 +241,12 @@ h2{
 
 .deploy{
     background-color: white;
-    height: 800px;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 180px;
 }
 
 .deploy p{
-    color: color:rgb(91, 105, 135);
+    color: #031b4e;
     font-size: 20px;
     font-weight: 300;
     padding-top: 20px;
@@ -300,6 +299,59 @@ h2{
     font-size: 14px;
     font-weight: 700;
 }
+
+/* Sezione Developer */
+
+.developer{
+    background-color: #f3f5f9;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.developer p{
+    color: #031b4e;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.developer img{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(3,27,78,0.06);
+}
+
+.developer i{
+    font-size: 25px;
+    color: #031b4e;
+}
+
+.developer span{
+    color: #5b6987;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+}
+
+.developer .margin-top{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.carousel-indicators li {
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #1633ff;
+}
+
+.carousel-indicators .active {
+    background-color: #1633ff;
+}
+
 
 @media (min-width: 375px) {
 
