@@ -357,9 +357,8 @@ h2{
 
 .built{
     background-color: white;
-    height: 1200px;
     padding-top: 64px;
-    padding-bottom: 64px;
+    padding-bottom: 300px;
 }
 
 .built h2{
@@ -390,6 +389,46 @@ h2{
 .built a:hover{
     text-decoration: none;
 }
+
+/* <!-- Sezione Customers --> */
+
+.customers{
+    background-image: url('https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg');
+    background-color: #031b4e;
+    background-size: cover;
+}
+
+.customers h2{
+    color: white;
+    padding-top: 64px;
+}
+
+.customers p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.customers a{
+    color: #0069ff;
+}
+
+.customers a:hover{
+    color: #1633ff ;
+    text-decoration: none;
+}
+
+.panel{
+    background-color: inherit;
+    border: none;
+    /* border-bottom: 1px solid transparent; */
+    border-radius: 0;
+}
+
 
 @media (min-width: 375px) {
 
