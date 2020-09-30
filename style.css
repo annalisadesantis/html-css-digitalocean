@@ -396,6 +396,7 @@ h2{
     background-image: url('https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg');
     background-color: #031b4e;
     background-size: cover;
+    padding-bottom: 50px;
 }
 
 .customers h2{
@@ -425,8 +426,38 @@ h2{
 .panel{
     background-color: inherit;
     border: none;
-    /* border-bottom: 1px solid transparent; */
-    border-radius: 0;
+}
+
+.table>tbody>tr>td{
+    border-top:1px solid #5b6886;
+}
+
+.panel.prima-tabella {
+    margin-bottom: 0px;
+}
+
+.panel>.table.tabella-bottom>tbody:first-child>tr:first-child td{
+    border-top:1px solid #5b6886;
+}
+
+.table .text-white{
+    color: white;
+    font-weight: bold;
+}
+
+.table .text-grey{
+    color: #5b6987;
+    font-weight: bold;
+    text-align: left;
+}
+
+.customers .table a{
+    text-align: right;
+    color: #00d7d2;
+}
+
+.customers .table a:hover{
+    color: #1633ff;
 }
 
 
@@ -543,6 +574,10 @@ h2{
         border-bottom: 2px solid #1633ff;
         color: rgb(3, 27, 78);
         background-color: white;
+    }
+
+    .panel>.table.tabella-bottom>tbody:first-child>tr:first-child td{
+        border-top:1px solid #5b6886;
     }
 
 }
@@ -721,5 +756,9 @@ h2{
         position: absolute;
         top: 180px;
         left: 0;
+    }
+
+    .panel>.table.tabella-bottom>tbody:first-child>tr:first-child td{
+        border-top:0;
     }
 }
