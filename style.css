@@ -455,6 +455,17 @@ h2{
         margin-left: 10px;
     }
 
+    .box-menu-right::after{
+        display: table;
+        clear: both;
+        content: "";
+    }
+
+    .box-menu-right a{
+        float: right;
+    }
+
+
     .nav-bar-link a:hover{
         color: #006aff;
         text-decoration: none;
