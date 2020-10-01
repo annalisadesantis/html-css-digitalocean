@@ -97,6 +97,10 @@ h2{
     margin-top: 8px;
 }
 
+.navbar .margin-nav{
+    margin-right: 10px;
+}
+
 .nav-bar-link {
     display: none;
 }
@@ -547,7 +551,7 @@ h2{
     color: white;
     font-size: 36px;
     font-weight: 700;
-    padding-top: 40px;
+    padding-top: 20px;
     line-height: 120%;
 }
 
@@ -559,6 +563,15 @@ h2{
     background: rgba(225,225,225,0.9) !important;
     color: #006aff;
 }
+
+/* Footer */
+
+footer{
+    background-color: #010e28;
+    height: 800px;
+}
+
+
 
 
 @media (min-width: 375px) {
@@ -863,11 +876,11 @@ h2{
     }
 
     .start-title h1{
-        padding-top: 80px;
+        padding-top: 55px;
         text-align: left !important;
     }
 
     .start-bottom .start-btn{
-        margin-top: 90px;
+        margin-top: 65px;
     }
 }
